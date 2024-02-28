@@ -12,7 +12,6 @@ function App() {
   const [cep, setCep] = useState({});
 
   async function handleSearch() {
-      // 09230350/json
 
     if (input === '') {
       alert("Preencha algum CEP");
